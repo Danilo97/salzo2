@@ -594,7 +594,7 @@ body .fluidZasto .contZasto .rowZasto p label {
 }
 
 body .fluidZasto .contZasto .rowZasto .zastoPar {
-  padding-top: 5%;
+  padding: 3% 3% 0% 3%;
   font-weight: bold;
 }
 
