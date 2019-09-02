@@ -139,6 +139,13 @@ body nav {
     width: 100%;
   }
 }
+body nav .nav1 .telefon a {
+  background-color: #007bff;
+}
+
+body nav .nav1 .telefon a:after {
+  content: none;
+}
 
 body nav .nav1 .mainLogo {
   height: 100%;
