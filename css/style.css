@@ -140,7 +140,8 @@ body nav {
   }
 }
 body nav .nav1 .telefon a {
-  background-color: #007bff;
+   background-color: #007bff;
+   color:whitesmoke;
 }
 
 body nav .nav1 .telefon a:after {
