@@ -564,7 +564,7 @@ body .fluidZasto .contZasto .rowZasto .colZasto {
 }
 
 body .fluidZasto .contZasto .rowZasto .colZasto:first-child {
-  border-bottom: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
   margin-bottom: 2%;
 }
 
