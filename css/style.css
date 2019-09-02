@@ -565,10 +565,10 @@ body .fluidZasto .contZasto .rowZasto .colZasto {
 
 body .fluidZasto .contZasto .rowZasto .colZasto:first-child {
   border-right: 2px solid whitesmoke;
-  
+  margin-bottom: 2%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   body .fluidZasto .contZasto .rowZasto .colZasto:first-child {
     border: none;
     border-bottom: 2px solid whitesmoke;
