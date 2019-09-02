@@ -1149,6 +1149,20 @@ body .usNav {
   background-color: #0083B0;
 }
 
+body .contSlider .rowSlider .colSlider .slider .indicators .indicator-item:hover {
+  background-color: #00738C !important;
+}
+
+body .contSlider .rowSlider .colSlider .slider .indicators .active {
+  background-color: #00738C !important;
+}
+
+body .contSlider .rowSlider .colSlider .slider .slides li .caption .colHead, body .contSlider .rowSlider .colSlider .slider .slides li .caption .colSlogan {
+  color: #0083B0;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
 body .contMainUsluge {
   margin: 20% auto 5% auto;
 }
@@ -1198,6 +1212,7 @@ body {
 
 body .contUs {
   width: 100%;
+  margin-top:5%;
 }
 
 body .contUs .rowUs .colUs details {
