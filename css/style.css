@@ -1139,7 +1139,16 @@ body {
   overflow-x: hidden;
   max-width: 100%;
 }
+body .usNav ul .telefon{
+                    a{
+                        background-color: #007bff;
+                        color:whitesmoke;
+                        &:after{
+                            content:none;
+                        }
+                    }
 
+}
 body .usNav {
   max-width: 100%;
   background-color: #0083B0;
