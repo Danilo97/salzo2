@@ -1150,6 +1150,10 @@ body .usNav {
   background-color: #0083B0;
 }
 
+body .contSlider {
+  padding-top: 10%;
+}
+
 body .contSlider .rowSlider .colSlider .slider .indicators .indicator-item:hover {
   background-color: #00738C !important;
 }
@@ -1165,7 +1169,7 @@ body .contSlider .rowSlider .colSlider .slider .slides li .caption .colHead, bod
 }
 
 body .contMainUsluge {
-  margin: 15% auto 5% auto;
+  margin: 5% auto 5% auto;
 }
 
 @media (max-width: 768px) {
