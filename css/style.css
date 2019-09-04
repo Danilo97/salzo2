@@ -311,7 +311,7 @@ body main {
 body main .fading {
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 131, 176, 0.5);
+  background-color: rgba(0, 131, 176, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1248,7 +1248,7 @@ body .contUs {
 }
 
 body .contUs .rowUs .colUs details {
-  background: #26b4b4;
+  background-color: rgb(6, 231, 247);
   -webkit-transition: 1s;
   transition: 1s;
   color: whitesmoke;
@@ -1258,6 +1258,7 @@ body .contUs .rowUs .colUs details p {
   padding: 3%;
   font-weight: bold;
   font-size: 1.1em;
+  color: #000;
 }
 
 body .contUs .rowUs .colUs details ul li p {
@@ -1275,6 +1276,7 @@ body .contUs .rowUs .colUs details summary {
   transition: 1s;
   font-weight: bold;
   padding: 1% 0%;
+  background-color: #0083B0;
 }
 
 body .contUs .rowUs .colUs details summary i {
