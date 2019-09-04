@@ -382,6 +382,12 @@ body main .fading .contMain .rowMain .colMain p span {
   font-weight: bold;
 }
 
+body main .fading .contMain .rowMain .colMain p #specSpan {
+  font-weight: bold;
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.2em;
+}
+
 body main .fading .contMain .rowMain .colMain .up {
   color: whitesmoke;
   -webkit-transition: 0.7s;
