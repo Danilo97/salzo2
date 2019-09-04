@@ -216,11 +216,12 @@ body nav .nav1 ul {
   width: 55%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   body nav .nav1 ul {
-    width: 65%;
+    width: 70%;
   }
 }
+
 
 body nav .nav1 ul li {
   margin: 0% 2%;
@@ -310,7 +311,7 @@ body main {
 body main .fading {
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 131, 176, 0.8);
+  background-color: rgba(0, 131, 176, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -527,6 +528,9 @@ body .usluge .contUsluge .rowUsluge .colUsluge .textUsluge .up a {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 body .usluge .contUsluge .rowUsluge .colUsluge .textUsluge .up:hover, body .usluge .contUsluge .rowUsluge .colUsluge .textUsluge .up:focus {
@@ -1151,6 +1155,30 @@ body .usNav {
 
 body .contSlider {
   padding-top: 10%;
+}
+
+@media (max-width: 1400px){
+  body .contSlider {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 768px){
+  body .contSlider {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 576px){
+  body .contSlider {
+    margin-top: 35%;
+  }
+}
+
+@media (max-width: 370px){
+  body .contSlider {
+    margin-top: 45%;
+  }
 }
 
 body .contSlider .rowSlider .colSlider .slider .indicators .indicator-item:hover {
