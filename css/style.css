@@ -1285,6 +1285,7 @@ body .contUs .rowUs .colUs .akord .kard .glava{
 
 body .contUs .rowUs .colUs .akord .kard .glava button{
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
