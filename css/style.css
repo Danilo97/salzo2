@@ -1270,6 +1270,11 @@ body .contUs .rowUs .colUs .akord .kard .kolaps p{
   font-weight: bold;
 }
 
+body .contUs .rowUs .colUs .akord .kard .kolaps ul{
+  margin-left: 2%;
+  font-weight: bold;
+}
+
 body .contUs .rowUs .colUs .akord .kard .glava{
   padding: 0px !important;
   padding-top: 0px !important;
@@ -1282,10 +1287,16 @@ body .contUs .rowUs .colUs .akord .kard .glava button{
   width: 100%;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   text-decoration: none;
   background-color: #0083B0;
   color: whitesmoke;
   font-weight: bold;
+}
+
+body .contUs .rowUs .colUs .akord .kard .glava button i {
+  margin-right: 1%;
+  font-size: 1.3em;
 }
 
 body .contUs .rowUs .colUs .akord .kard .glava button:hover{
