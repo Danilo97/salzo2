@@ -1293,6 +1293,7 @@ body .contUs .rowUs .colUs .akord .kard .glava button{
   background-color: #0083B0;
   color: whitesmoke;
   font-weight: bold;
+  padding: 2% 0%;
 }
 
 body .contUs .rowUs .colUs .akord .kard .glava button i {
