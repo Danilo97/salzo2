@@ -102,7 +102,7 @@
                         <div class="textUsluge">
                             <h4>Otvaranje firme u formi shodno vašim željama i potrebama</h4>
                             <p>Ova usluga je za korisnike naših usluga besplatna, osim ukoliko registrujete DOO, onda samo plaćate uslugu izrade Ugovora o osnovanju...</p>
-                            <button class="up"><a href="usluge.html#firstDetails" id="tracker1">Saznajte vise</a></button>
+                            <button class="up"><a href="usluge.html#collapseOne" id="tracker1">Saznajte vise</a></button>
                         </div>
                     </div>
 
@@ -113,7 +113,7 @@
                         <div class="textUsluge">
                             <h4>Privremene/trajne odjave</h4>
                             <p>Ova usluga je takođe za korisnike naših usluga besplatna. U okviru ove usluge za vas završavamo proceduru u APR-u, PIO Fondu i Fondu za zdravstveno osiguranje, Poreskoj upravi...</p>
-                            <button class="up"><a href="usluge.html" id="tracker2">Saznajte vise</a></button>
+                            <button class="up"><a href="usluge.html#collapseTwo" id="tracker2">Saznajte vise</a></button>
                         </div>
                     </div>
 
@@ -130,7 +130,7 @@
                                 </li>
                         </ul>
                         
-                            <button class="up"><a href="usluge.html" id="tracker3">Saznajte vise</a></button>
+                            <button class="up"><a href="usluge.html#collapseThree" id="tracker3">Saznajte vise</a></button>
                         </div>
                     </div>
 
@@ -144,7 +144,7 @@
                         <div class="textUsluge">
                             <h4>Platni promet</h4>
                             <p>Pored obrade dokumentacije svojim klijentma nudimo i servis platnog prometa. Pomenuta usluga se dodatno tarifira, ali nudi komfor da ne mislite o...</p>
-                            <button class="up"><a href="usluge.html" id="tracker4">Saznajte vise</a></button>
+                            <button class="up"><a href="usluge.html#collapseFour" id="tracker4">Saznajte vise</a></button>
                         </div>
                     </div>
     
@@ -155,7 +155,7 @@
                         <div class="textUsluge">
                             <h4>Prijave i odjave zaposenih</h4>
                             <p>Ova ulsuga je obuhvaćena bilo kojim paketom usluga. Ne utiče na cenu mesečne naknade bez obzira na broj zaposlenih. U okviru ove usluge...</p>
-                            <button class="up"><a href="usluge.html" id="tracker5">Saznajte vise</a></button>
+                            <button class="up"><a href="usluge.html#collapseFive" id="tracker5">Saznajte vise</a></button>
                         </div>
                     </div>
     
@@ -166,7 +166,7 @@
                         <div class="textUsluge">
                             <h4>Poresko savetovanje</h4>
                             <p>Našim klijentima nudimo poresko savetovanje, kako da u okviru zakonskih mogućnosti, uz minimalan rizik i ulaganja ostvare najveći profit...</p>
-                            <button class="up"><a href="usluge.html" id="tracker6">Saznajte vise</a></button>
+                            <button class="up"><a href="usluge.html#collapseSix" id="tracker6">Saznajte vise</a></button>
                         </div>
                     </div>
     
@@ -185,7 +185,7 @@
                                     <p>- zarada, naknada zarada i drugih ličnih primanja, poreza i doprinosa iz samostalne delatnosti, poreza na dobit preduzeća...</p>
                                 </li>
                         </ul>
-                                <button class="up"><a href="usluge.html" id="tracker7">Saznajte vise</a></button>
+                                <button class="up"><a href="usluge.html#collapseSeven" id="tracker7">Saznajte vise</a></button>
                             </div>
                         </div>
         
@@ -196,7 +196,7 @@
                             <div class="textUsluge">
                                 <h4>Praćenje propisa</h4>
                                 <p class="down">Kako je naša zemlja još uvek u fazi tranzicije, potencijalni kandidat za članstvo u Evropskoj uniji, izmene Zakona i podzakonskih akata su neminovnost na koju smo primorani. Naša obaveza je da te izmene permanentno pratimo i našim...</p>
-                                <button class="up"><a href="usluge.html" id="tracker8">Saznajte vise</a></button>
+                                <button class="up"><a href="usluge.html#collapseEight" id="tracker8">Saznajte vise</a></button>
                             </div>
                         </div>
         
@@ -207,7 +207,7 @@
                             <div class="textUsluge">
                                 <h4>Konsalting u oblasti normativnih akata</h4>
                                 <p>U saradnji sa partnerskim advokatskim kancelarijama, našim klijentima nudimo izradu kompletnih normativnih akata – od osnivačkih, preko računovodstvenih  do akata...</p>
-                                <button class="up"><a href="usluge.html" id="tracker9">Saznajte vise</a></button>
+                                <button class="up"><a href="usluge.html#collapseNine" id="tracker9">Saznajte vise</a></button>
                             </div>
                         </div>
         
@@ -321,6 +321,11 @@
                                                 <img class="blurOne" class="img-fluid" src="images/itg.png" alt="partner1"/>
                                         </figure>
                                     <h4>Preduzeće za inžejering, trgovinu i građevinarstvo „ITG“ DOO</h4>
+                                </div>
+                                <div class="item">
+                                        <figure>
+                                                <img class="blurOne" class="img-fluid" src="images/poolPartner.PNG" alt="partner1"/>
+                                        </figure>
                                 </div>
                                 <div class="item">  
                                     <h4>SZ“Partizanski put“</h4>
@@ -523,6 +528,11 @@
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav();
+            let 
+            id = window.location.hash.substr(1),
+            anchor = $('#' + id).offset().top;
+            $('html, body').animate({scrollTop: anchor }, 800);
+            location.hash && $(location.hash + '.collapse').collapse('show');
         });
     </script>
     <script>
