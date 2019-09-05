@@ -1021,7 +1021,9 @@ body .fluidKontakt .contKontakt form .rowKontakt .colKontakt button:hover {
 }
 
 /* Ovde krecem footer bebi */
+
 body footer {
+  width: 100% !important;
   background: #0083B0;
   padding: 3% 0% 0.2% 0%;
 }
@@ -1253,7 +1255,45 @@ body .contUs {
   margin-top:5%;
 }
 
-body .contUs .rowUs .colUs details {
+body .contUs .rowUs .colUs .akord .kard{
+  background-color: #0083B0;
+  text-decoration: none;
+}
+
+body .contUs .rowUs .colUs .akord .kard .kolaps{
+  background: rgb(9, 207, 241);
+}
+
+body .contUs .rowUs .colUs .akord .kard .kolaps p{
+  text-align: justify;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+body .contUs .rowUs .colUs .akord .kard .glava{
+  padding: 0px !important;
+  padding-top: 0px !important;
+  margin: 0px;
+  text-decoration: none;
+  background-color: #0083B0;
+}
+
+body .contUs .rowUs .colUs .akord .kard .glava button{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: #0083B0;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+body .contUs .rowUs .colUs .akord .kard .glava button:hover{
+  background: none;
+  text-decoration: none;
+}
+
+/*body .contUs .rowUs .colUs details {
   background-color: rgb(6, 231, 247);
   -webkit-transition: 1s;
   transition: 1s;
@@ -1340,4 +1380,6 @@ details[open] summary ~ * {
     opacity: 1;
   }
 }
+
+*/
 /*# sourceMappingURL=style.css.map */
